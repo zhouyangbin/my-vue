@@ -1,21 +1,3 @@
-<style lang="less" scoped>
-	.login {
-		padding: 50px;
-		text-align: center;
-		.line {
-			padding: 5px;
-			input {
-				padding: 0 10px;
-				line-height: 28px;
-			}
-		}
-		button {
-			padding: 0 20px;
-			margin-top: 20px;
-			line-height: 28px;
-		}
-	}
-</style>
 <template>
 	<div>
 		<v-header title="登录">
@@ -59,3 +41,21 @@
 		}
     }
 </script>
+<style lang="less" scoped>
+	.login {
+		padding: 50px;
+		text-align: center;
+		.line {
+			padding: 5px;
+			input {
+				padding: 0 10px;
+				line-height: 28px;
+			}
+		}
+		button {
+			padding: 0 20px;
+			margin-top: 20px;
+			line-height: 28px;
+		}
+	}
+</style>
