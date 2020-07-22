@@ -30,13 +30,12 @@ plugins.push(
 module.exports = {
     entry: ['./src/main.js'], //编译入口文件
     output: {
-        publicPath: config.publicPath, //服务器的路径
+        publicPath: "/", //服务器的路径
         path: path.resolve(__dirname + config.publicPath), //编译到app目录
         filename: '[name].js?[hash]' //编译后的文件名
     },
     module: {
-        loaders: [
-            {
+        loaders: [{
                 test: /\.js(x)*$/,
                 exclude: /^node_modules$/,
                 loader: 'babel'
